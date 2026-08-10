@@ -1,15 +1,15 @@
-# Speech Emotion Recognition: Comparative Study of Wav2Vec2, ResNet-52, MobileNetV3 and Custom ResNet
+# A Comparative Study of Wav2Vec2, ResNet-52, MobileNetV3 and Custom AlexNet Models for Speech Emotion Recognition Tasks On Voice Data 
 
 ## 1. Project Overview
 
-This repository presents a **controlled comparative study** of four deep learning architectures for **Speech Emotion Recognition (SER)** using PyTorch:
+This repository presents a **Comparative study** of four deep learning architectures for **Speech Emotion Recognition (SER)** by a PyTorch based apporach:
 
-- **Wav2Vec2** (Meta)
-- **ResNet-52**
-- **MobileNetV3**
+- **Wav2Vec2** (By Meta)
+- **ResNet-512**
+- **MobileNetV3 Large**
 - **Custom ResNet-type architecture** (designed by me)
 
-All models were trained and evaluated under the same conditions (same dataset split, same preprocessing pipeline, and same evaluation metrics) to ensure a fair comparison.
+All models were trained and evaluated under these conditions (same dataset split, same preprocessing pipeline, and same evaluation metrics) to ensure a fair comparison.
 
 ---
 
