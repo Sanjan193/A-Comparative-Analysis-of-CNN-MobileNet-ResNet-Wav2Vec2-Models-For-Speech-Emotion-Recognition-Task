@@ -1,0 +1,2 @@
+# A-Comparative-Analysis-of-CNN-MobileNet-ResNet-Wav2Vec2-Models-For-Speech-Emotion-Recognition-Task
+This repository presents a comparative analysis of four deep learning models for Speech Emotion Recognition using a PyTorch-based approach. The project evaluates a Custom CNN, MobileNetV3, ResNet-152, and Wav2Vec2 under a consistent experimental setup to compare their performance and identify the best-performing model for voice related data.
