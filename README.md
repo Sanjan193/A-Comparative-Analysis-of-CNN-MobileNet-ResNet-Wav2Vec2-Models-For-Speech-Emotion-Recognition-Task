@@ -10,7 +10,7 @@ This repository presents a **Comparative study** of four deep learning architect
 - **Custom ResNet-type architecture** (designed by me)
 
 # Pipeline Structure
-Down here I'm mentioning the pipeline for all that models except **Wav2Vec2**....because Wav2Vec2 taken only the **raw audio** form from **'.wav'** file, so the Mel-Spectrogram conversation is not necessary for this architecture.For the other models this diagram is applicable.
+Down here I'm mentioning the pipeline for all that models except **Wav2Vec2**....because Wav2Vec2 taken only the **raw audio** form directly from **'.wav'** file, so the Mel-Spectrogram conversation is not necessary for this architecture.For the other models this diagram is applicable.
 
 ![Basic Idea Of the Pipeline](Model_Architechture/Pipeline.png)
 
