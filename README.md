@@ -177,23 +177,31 @@ Giving a Basic ResNet block ehich is multiplied and stacked one on another to fo
 
 ![Custom ResNet Architecture](Model_Architechture/AlexNet/Custom_AlexNet.png)
 
-**Phase 1 – Loss & Accuracy**  
-![Phase 1](results/plots/custom_resnet/phase1_loss_acc.png)
+<table>
+  <tr>
+    <th colspan="2">Phase 1 - Loss & Accuracy</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Results/Plots/AlexNet/Custom_Alexnet_Loss_phase_1.png" width="300">
+    </td>
+    <td>
+      <img src="Results/Plots/AlexNet/Custom_AlexNet_Accuracy_phase_1.png" width="300">
+    </td>
+  </tr>
 
-**Phase 2 – Loss & Accuracy**  
-![Phase 2](results/plots/custom_resnet/phase2_loss_acc.png)
+  <tr>
+    <th colspan="2">Phase 2 - Loss & Accuracy</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Results/Plots/AlexNet/Custom_Alexnet_loss_phase_2.png" width="300">
+    </td>
+    <td>
+      <img src="Results/Plots/AlexNet/Custom_Alexnet_accuracy_phase_2.png" width="300">
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 6. How to Run
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Train a model
-python src/train.py --model wav2vec2 --phase 1
-python src/train.py --model resnet52 --phase 2
-
-# Evaluate
-python src/evaluate.py --model wav2vec2 --phase 2
