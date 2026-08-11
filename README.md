@@ -80,7 +80,7 @@ Each model was trained in **two phases**:
 
 ### 5.1 Wav2Vec2
 
-![Wav2Vec2 Architecture](assets/architectures/wav2vec2_architecture.png)
+![Wav2Vec2 Architecture](Model_Architechture/Wav2Vec2/Wav2Vec2.png)
 
 **Phase 1 – Loss & Accuracy**  
 ![Phase 1](results/plots/wav2vec2/phase1_loss_acc.png)
@@ -90,9 +90,9 @@ Each model was trained in **two phases**:
 
 ---
 
-### 5.2 ResNet-52
-
-![ResNet-52 Architecture](assets/architectures/resnet52_architecture.png)
+### 5.2 ResNet-152
+Giving a Basic ResNet block ehich is multiplied and stacked one on another to form ResNet152 Architecture
+![ResNet-52 Architecture](Model_Architechture/Basic_Resnet_block/Screenshot 2026-08-11 114820.png)
 
 **Phase 1 – Loss & Accuracy**  
 ![Phase 1](results/plots/resnet52/phase1_loss_acc.png)
@@ -104,7 +104,7 @@ Each model was trained in **two phases**:
 
 ### 5.3 MobileNetV3
 
-![MobileNetV3 Architecture](assets/architectures/mobilenetv3_architecture.png)
+![MobileNetV3 Architecture](Model_Architechture/MobileNet_V3/Screenshot 2026-08-11 113406.png)
 
 **Phase 1 – Loss & Accuracy**  
 ![Phase 1](results/plots/mobilenetv3/phase1_loss_acc.png)
@@ -114,9 +114,9 @@ Each model was trained in **two phases**:
 
 ---
 
-### 5.4 Custom ResNet-type Architecture
+### 5.4 Custom AlexNet-type Architecture
 
-![Custom ResNet Architecture](assets/architectures/custom_resnet_architecture.png)
+![Custom ResNet Architecture](Model_Architechture/AlexNet/Custom_AlexNet.png)
 
 **Phase 1 – Loss & Accuracy**  
 ![Phase 1](results/plots/custom_resnet/phase1_loss_acc.png)
