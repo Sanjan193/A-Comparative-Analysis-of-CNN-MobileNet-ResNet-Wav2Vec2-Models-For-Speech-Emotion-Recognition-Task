@@ -17,12 +17,12 @@ All models were trained and evaluated under these conditions (same dataset split
 
 The goal of this study is to analyze how different architectural families perform on the speech emotion recognition task:
 
-| Model              | Type                        | Key Characteristic                     |
-|--------------------|-----------------------------|----------------------------------------|
-| Wav2Vec2           | Self-supervised Transformer | Pretrained on large audio data         |
-| ResNet-52          | Residual CNN                | Deep residual connections              |
-| MobileNetV3        | Efficient CNN               | Lightweight & mobile-friendly          |
-| Custom ResNet      | Custom Residual Network     | Designed specifically for this task    |
+| Model              | Type                        | 
+|--------------------|-----------------------------|
+| Wav2Vec2           | Self-supervised Transformer | 
+| ResNet-52          | Residual CNN                | 
+| MobileNetV3        | Efficient CNN               |
+| Custom ResNet-152      | Custom Residual Network |
 
 Each model was trained in **two phases**:
 
@@ -33,7 +33,7 @@ Each model was trained in **two phases**:
 
 ## 3. Dataset
 
-- **Dataset used**: [Write dataset name here, e.g. RAVDESS / IEMOCAP / CREMA-D / TESS etc.]
+- **Dataset used**: RAVDESS Emotional speech audio(Got this from the kaggle here is the link https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio
 - **Emotions**: [List the emotions, e.g. Angry, Happy, Sad, Neutral, Fear, Disgust, Surprise]
 - **Total samples**: 
 - **Train / Validation / Test split**: 
