@@ -1,0 +1,55 @@
+model:
+  name: AlexNet_CNN
+  pretrained: true
+  
+
+training:
+  phase: 1
+  epochs: 50
+  batch_size: 32
+  mixed_precision: true
+ 
+
+optimizer_phase_1:
+  name: AdamW
+  learning_rate: 1e-4
+  weight_decay: 1.0e-4
+  betas: [0.9, 0.999]
+
+
+scheduler_phase_1:
+  mode: max
+  patience: 3
+  factor: 0.5
+
+early_stopping_phase_1:
+  patience: 7
+  monitor: val_loss
+# -----------------------------------------------------------------
+training:
+  phase: 2
+  epochs: 50
+  batch_size: 32
+  mixed_precision: true
+
+optimizer_phase_2:
+  name: AdamW
+  learning_rate: 3e-5
+  weight_decay: 1.0e-4
+  betas: [0.9, 0.999]
+
+
+scheduler_phase_2:
+  mode: max
+  patience: 4
+  factor: 0.5
+
+early_stopping_phase_2:
+  patience: 9
+  monitor: val_loss  
+  
+
+data:
+  sample_rate: 16kHz
+  n_mels: 128
+  input_type: mel_spectrogram
