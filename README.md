@@ -84,7 +84,7 @@ Each model was trained in **two phases**:
 
 <table>
   <tr>
-    <th>Phase 1 - Loss & Accuracy</th>
+    <th colspan="2">Phase 1 - Loss & Accuracy</th>
   </tr>
   <tr>
     <td>
@@ -94,9 +94,9 @@ Each model was trained in **two phases**:
       <img src="Results/Plots/Wav2Vec2/Wav2vec2_model_final_accuracy_phase_1.png" width="300">
     </td>
   </tr>
-</table>
- <tr>
-  <th>Phase 2 - Loss & Accuracy</th>
+
+  <tr>
+    <th colspan="2">Phase 2 - Loss & Accuracy</th>
   </tr>
   <tr>
     <td>
