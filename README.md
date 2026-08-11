@@ -8,7 +8,8 @@ This repository presents a **Comparative study** of four deep learning architect
 - **ResNet-512**
 - **MobileNetV3 Large**
 - **Custom ResNet-type architecture** (designed by me)
-![Basic Idea Of the Pipeline]()
+
+![Basic Idea Of the Pipeline](Model_Architechture/Screenshot 2026-08-11 164157.png)
 
 All models were trained and evaluated under these conditions (same dataset split, same preprocessing pipeline, and same evaluation metrics) to ensure a fair comparison.
 
