@@ -92,7 +92,7 @@ Each model was trained in **two phases**:
 
 ### 5.2 ResNet-152
 Giving a Basic ResNet block ehich is multiplied and stacked one on another to form ResNet152 Architecture
-![ResNet-52 Architecture](Model_Architechture/Basic_Resnet_block/Screenshot2026-08-11114820.png)
+![ResNet-52 Architecture](Model_Architechture/Basic_Resnet_block/ResNet.png)
 
 **Phase 1 – Loss & Accuracy**  
 ![Phase 1](results/plots/resnet52/phase1_loss_acc.png)
@@ -104,7 +104,7 @@ Giving a Basic ResNet block ehich is multiplied and stacked one on another to fo
 
 ### 5.3 MobileNetV3
 
-![MobileNetV3 Architecture](Model_Architechture/MobileNet_V3/Screenshot2026-08-11113406.png)
+![MobileNetV3 Architecture](Model_Architechture/MobileNet_V3/MobileNet.png)
 
 **Phase 1 – Loss & Accuracy**  
 ![Phase 1](results/plots/mobilenetv3/phase1_loss_acc.png)
