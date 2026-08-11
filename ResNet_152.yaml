@@ -1,0 +1,38 @@
+model:
+  name: resnet52
+  pretrained: true
+  
+
+training:
+  phase: 1
+  epochs: 50
+  batch_size: 32
+  mixed_precision: true
+
+early_stopping_phase_1:
+  patience: 8
+  monitor: val_loss
+  mode: max
+ 
+
+optimizer_phase_1:
+  name: AdamW
+  learning_rate: 2e-4
+  weight_decay: 1.0e-4
+  betas: [0.9, 0.999]
+
+
+scheduler_phase_1:
+  mode: max
+  patience: 4
+  factor: 0.5
+
+early_stopping:
+  patience: 8
+  monitor: val_loss
+  
+
+data:
+  sample_rate: 16kHz
+  n_mels: 128
+  input_type: mel_spectrogram
