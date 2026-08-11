@@ -146,12 +146,31 @@ Giving a Basic ResNet block ehich is multiplied and stacked one on another to fo
 
 ![MobileNetV3 Architecture](Model_Architechture/MobileNet_V3/MobileNet.png)
 
-**Phase 1 – Loss & Accuracy**  
-![Phase 1](results/plots/mobilenetv3/phase1_loss_acc.png)
+<table>
+  <tr>
+    <th colspan="2">Phase 1 - Loss & Accuracy</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Results/Plots/MobileNet/Mobilenet_v3_loss_phase_1.png" width="300">
+    </td>
+    <td>
+      <img src="Results/Plots/MobileNet/Mobilenet_v3_accuracy_Phase_1.png" width="300">
+    </td>
+  </tr>
 
-**Phase 2 – Loss & Accuracy**  
-![Phase 2](results/plots/mobilenetv3/phase2_loss_acc.png)
-
+  <tr>
+    <th colspan="2">Phase 2 - Loss & Accuracy</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Results/Plots/MobileNet/Mobilenet_v3_loss_Phase_2.png" width="300">
+    </td>
+    <td>
+      <img src="Results/Plots/MobileNet/Mobilenet_v3_accuracy_Phase_2.png" width="300">
+    </td>
+  </tr>
+</table>
 ---
 
 ### 5.4 Custom AlexNet-type Architecture
