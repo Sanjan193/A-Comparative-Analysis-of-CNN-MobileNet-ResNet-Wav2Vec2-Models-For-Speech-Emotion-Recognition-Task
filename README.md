@@ -1,4 +1,4 @@
-# A Comparative Study of Wav2Vec2, ResNet-52, MobileNetV3 and Custom AlexNet Models for Speech Emotion Recognition Tasks On Voice Data 
+# A Comparative Study of Fine-tuning Wav2Vec2, ResNet-52, MobileNetV3 and Custom AlexNet Models for Speech Emotion Recognition Tasks On Voice Data 
 
 ## 1. Project Overview
 
