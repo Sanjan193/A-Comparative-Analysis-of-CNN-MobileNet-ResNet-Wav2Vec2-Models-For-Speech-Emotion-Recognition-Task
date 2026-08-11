@@ -39,6 +39,7 @@ Each model was trained in **two phases**:
 - **Train / Validation / Test split**: 70:15:15 ratio
 - **Sampling rate**: 16 kHz
 - **Input**: 1.Raw waveform is given for Wav2Vec2 model becasue its not trained on mel-spectogram heat map images
+
   2. Mel-spectrogram heatmap image data is given for CNNs
 
 ---
