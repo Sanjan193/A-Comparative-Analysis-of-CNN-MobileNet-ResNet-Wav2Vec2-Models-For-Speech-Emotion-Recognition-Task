@@ -82,11 +82,31 @@ Each model was trained in **two phases**:
 
 ![Wav2Vec2 Architecture](Model_Architechture/Wav2Vec2/Wav2Vec2.png)
 
-**Phase 1 – Loss & Accuracy**  
-![Phase 1](results/plots/wav2vec2/phase1_loss_acc.png)
+<table>
+  <tr>
+    <th>Phase 1 - Loss & Accuracy</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Results/Plots/Wav2Vec2/wav2vec2_model_final_loss_Phase_1.png" width="400">
+    </td>
+    <td>
+      <img src="Results/Plots/Wav2Vec2/Wav2vec2_model_final_accuracy_phase_1.png" width="400">
+    </td>
+  </tr>
+</table>
+<th>Phase 2 - Loss & Accuracy</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Results/Plots/Wav2Vec2/wav2vec2_model_final_loss_Phase_2.png" width="400">
+    </td>
+    <td>
+      <img src="Results/Plots/Wav2Vec2/Wav2vec2_model_final_accuracy_phase_2.png" width="400">
+    </td>
+  </tr>
+</table>
 
-**Phase 2 – Loss & Accuracy**  
-![Phase 2](results/plots/wav2vec2/phase2_loss_acc.png)
 
 ---
 
