@@ -95,7 +95,8 @@ Each model was trained in **two phases**:
     </td>
   </tr>
 </table>
-<th>Phase 2 - Loss & Accuracy</th>
+ <tr>
+  <th>Phase 2 - Loss & Accuracy</th>
   </tr>
   <tr>
     <td>
