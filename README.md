@@ -34,11 +34,12 @@ Each model was trained in **two phases**:
 ## 3. Dataset
 
 - **Dataset used**: RAVDESS Emotional speech audio(Got this from the kaggle here is the link https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio
-- **Emotions**: [List the emotions, e.g. Angry, Happy, Sad, Neutral, Fear, Disgust, Surprise]
-- **Total samples**: 
-- **Train / Validation / Test split**: 
+- **Emotions**: In this dataset we have total 8 types of emotion classes(01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised) 
+- **Total samples**: Total 1440 samples are present in t his dataset 
+- **Train / Validation / Test split**: 70:15:15 ratio
 - **Sampling rate**: 16 kHz
-- **Input**: [Raw waveform for Wav2Vec2 | Mel-spectrogram for CNNs]
+- **Input**: 1.Raw waveform is given for Wav2Vec2 model becasue its not trained on mel-spectogram heat map images
+- 2. Mel-spectrogram heatmap image data is given for CNNs
 
 ---
 
