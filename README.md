@@ -117,18 +117,19 @@ Giving a Basic ResNet block ehich is multiplied and stacked one on another to fo
 
 <table>
   <tr>
-    <th>Phase 1 - Loss & Accuracy</th>
+    <th colspan="2">Phase 1 - Loss & Accuracy</th>
   </tr>
   <tr>
     <td>
       <img src="Results/Plots/ResNet/Resnet_152_Loss_Curve_Phase_1.png" width="300">
     </td>
     <td>
-      <img src="Results/Plots/ResNet/Resnet152_Accuracy_curve_Phase_1.pngResults/Plots/ResNet/Resnet152_Accuracy_curve_Phase_1.png" width="300">
+      <img src="Results/Plots/ResNet/Resnet152_Accuracy_curve_Phase_1.png" width="300">
     </td>
   </tr>
-</table>
-<th>Phase 2 - Loss & Accuracy</th>
+
+  <tr>
+    <th colspan="2">Phase 2 - Loss & Accuracy</th>
   </tr>
   <tr>
     <td>
