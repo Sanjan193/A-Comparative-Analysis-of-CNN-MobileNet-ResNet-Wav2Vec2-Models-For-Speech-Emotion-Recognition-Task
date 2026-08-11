@@ -48,22 +48,21 @@ Each model was trained in **two phases**:
 
 ### Phase 1 Results
 
-| Model              |Train Accuracy | Val accuracy | F1-Score  | Train Loss | Val Loss |
-|--------------------|---------------|--------------|--------- -|------------|----------|
-| Wav2Vec2           |~74%           | ~60%         | ~0.572    |~0.784      |~1.1961   | 
-| ResNet-152         |~56%           | ~27%         | ~0.267    |~1.35       |~2.64     | 
-| MobileNetV3        | ~68%          | ~30%         | ~0.300    |~ 1.0       |~1.83     |   
-| Custom ResNet      |   ~94%        |  ~57%        | ~0.530    |~0.4        |  ~1.4    |  
+| Model          | Train Accuracy | Val Accuracy | F1-Score | Train Loss | Val Loss |
+|----------------|----------------|--------------|----------|------------|----------|
+| Wav2Vec2       | ~74%           | ~60%         | ~0.572   | ~0.784     | ~1.196   |
+| ResNet-152     | ~56%           | ~27%         | ~0.267   | ~1.35      | ~2.64    |
+| MobileNetV3    | ~68%           | ~30%         | ~0.300   | ~1.0       | ~1.83    |
+| Custom ResNet  | ~94%           | ~57%         | ~0.530   | ~0.4       | ~1.4     |
 
 ### Phase 2 Results
 
-| Model              |Train Accuracy | Val accuracy | F1-Score  | Train Loss | Val Loss |
-|--------------------|---------------|--------------|------ ----|------------|----------|
-| Wav2Vec2           |~95%           |~83%          |~0.826     |~0.278      |~ 0.464   | 
-| ResNet-152         |~93%           |~30%          |~0.293     |~0.565      |~2.125    |  
-| MobileNetV3        |~91%           |~45%          |~0.41      | ~0.6       | ~1.6     |   
-| Custom ResNet      | ~96           |~59           |~0.561     |  ~1.5      |~1.3      |  
-
+| Model          | Train Accuracy | Val Accuracy | F1-Score | Train Loss | Val Loss |
+|----------------|----------------|--------------|----------|------------|----------|
+| Wav2Vec2       | ~95%           | ~83%         | ~0.826   | ~0.278     | ~0.464   |
+| ResNet-152     | ~93%           | ~30%         | ~0.293   | ~0.565     | ~2.125   |
+| MobileNetV3    | ~91%           | ~45%         | ~0.41    | ~0.6       | ~1.6     |
+| Custom ResNet  | ~96%           | ~59%         | ~0.561   | ~1.5       | ~1.3     |
 ### Test Set Results   
 
 | Model              | Accuracy | Precision | Recall |
