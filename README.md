@@ -88,10 +88,10 @@ Each model was trained in **two phases**:
   </tr>
   <tr>
     <td>
-      <img src="Results/Plots/Wav2Vec2/wav2vec2_model_final_loss_Phase_1.png" width="400">
+      <img src="Results/Plots/Wav2Vec2/wav2vec2_model_final_loss_Phase_1.png" width="300">
     </td>
     <td>
-      <img src="Results/Plots/Wav2Vec2/Wav2vec2_model_final_accuracy_phase_1.png" width="400">
+      <img src="Results/Plots/Wav2Vec2/Wav2vec2_model_final_accuracy_phase_1.png" width="300">
     </td>
   </tr>
 </table>
@@ -99,10 +99,10 @@ Each model was trained in **two phases**:
   </tr>
   <tr>
     <td>
-      <img src="Results/Plots/Wav2Vec2/wav2vec2_model_final_loss_Phase_2.png" width="400">
+      <img src="Results/Plots/Wav2Vec2/wav2vec2_model_final_loss_Phase_2.png" width="300">
     </td>
     <td>
-      <img src="Results/Plots/Wav2Vec2/Wav2vec2_model_final_accuracy_phase_2.png" width="400">
+      <img src="Results/Plots/Wav2Vec2/Wav2vec2_model_final_accuracy_phase_2.png" width="300">
     </td>
   </tr>
 </table>
@@ -114,12 +114,30 @@ Each model was trained in **two phases**:
 Giving a Basic ResNet block ehich is multiplied and stacked one on another to form ResNet152 Architecture
 ![ResNet-52 Architecture](Model_Architechture/Basic_Resnet_block/ResNet.png)
 
-**Phase 1 – Loss & Accuracy**  
-![Phase 1](results/plots/resnet52/phase1_loss_acc.png)
-
-**Phase 2 – Loss & Accuracy**  
-![Phase 2](results/plots/resnet52/phase2_loss_acc.png)
-
+<table>
+  <tr>
+    <th>Phase 1 - Loss & Accuracy</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Results/Plots/ResNet/Resnet_152_Loss_Curve_Phase_1.png" width="300">
+    </td>
+    <td>
+      <img src="Results/Plots/ResNet/Resnet152_Accuracy_curve_Phase_1.pngResults/Plots/ResNet/Resnet152_Accuracy_curve_Phase_1.png" width="300">
+    </td>
+  </tr>
+</table>
+<th>Phase 2 - Loss & Accuracy</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Results/Plots/ResNet/Resnet_152_Loss_Curve_Phase_2.png" width="300">
+    </td>
+    <td>
+      <img src="Results/Plots/ResNet/Resnet152_Accuracy_curve_Phase_2.png" width="300">
+    </td>
+  </tr>
+</table>
 ---
 
 ### 5.3 MobileNetV3
