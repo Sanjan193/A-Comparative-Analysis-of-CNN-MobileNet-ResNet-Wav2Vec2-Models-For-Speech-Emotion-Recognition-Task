@@ -14,7 +14,7 @@ Down here I'm mentioning the pipeline for all that models except **Wav2Vec2**...
 
 ![Basic Idea Of the Pipeline](Model_Architechture/Pipeline.png)
 
-Find more about Mel-Spectrograms from here : https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53
+Find more about Mel-Spectrograms from : [Click Here](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53)
 
 All models were trained and evaluated under these conditions (same dataset split, same preprocessing pipeline, and same evaluation metrics) to ensure a fair comparison.
 
