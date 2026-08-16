@@ -5,9 +5,9 @@
 This repository presents a **Comparative study** of four deep learning architectures for **Speech Emotion Recognition (SER)** by a PyTorch based apporach:
 
 - **Wav2Vec2** (By Meta)
-- **ResNet-512**
+- **ResNet-152**
 - **MobileNetV3 Large**
-- **Custom ResNet-type architecture** (designed by me)
+- **Custom AlexNet-type architecture** (designed by me)
 
 ### Pipeline Structure
 Down here I'm mentioning the pipeline for all that models except **Wav2Vec2**....because Wav2Vec2 taken only the **raw audio** form directly from **'.wav'** file, so the Mel-Spectrogram conversation is not necessary for this architecture.For the other models this diagram is applicable.
@@ -27,9 +27,9 @@ The goal of this study is to analyze how different architectural families perfor
 | Model              | Type                        | 
 |--------------------|-----------------------------|
 | Wav2Vec2           | Self-supervised Transformer | 
-| ResNet-52          | Residual CNN                | 
+| ResNet-152          | Residual CNN                | 
 | MobileNetV3        | Efficient CNN               |
-| Custom ResNet-152      | Custom Residual Network |
+| Custom AlexNet      | Custom Residual Network |
 
 Each model was trained in **two phases**:
 
@@ -60,7 +60,7 @@ Each model was trained in **two phases**:
 | Wav2Vec2       | ~74%           | ~60%         | ~0.572   | ~0.784     | ~1.196   |
 | ResNet-152     | ~56%           | ~27%         | ~0.267   | ~1.35      | ~2.64    |
 | MobileNetV3    | ~68%           | ~30%         | ~0.300   | ~1.0       | ~1.83    |
-| Custom ResNet  | ~94%           | ~57%         | ~0.530   | ~0.4       | ~1.4     |
+| Custom AlexNet  | ~94%           | ~57%         | ~0.530   | ~0.4       | ~1.4     |
 
 ### Phase 2 Results
 
@@ -69,7 +69,7 @@ Each model was trained in **two phases**:
 | Wav2Vec2       | ~95%           | ~83%         | ~0.826   | ~0.278     | ~0.464   |
 | ResNet-152     | ~93%           | ~30%         | ~0.293   | ~0.565     | ~2.125   |
 | MobileNetV3    | ~91%           | ~45%         | ~0.41    | ~0.6       | ~1.6     |
-| Custom ResNet  | ~96%           | ~59%         | ~0.561   | ~1.5       | ~1.3     |
+| Custom AlexNet  | ~96%           | ~59%         | ~0.561   | ~1.5       | ~1.3     |
 ### Test Set Results   
 
 | Model              | Accuracy | Precision | Recall |
